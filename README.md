@@ -3,6 +3,8 @@ Payoneer project
 
 Job Management System
 
+
+
 Current implementation supports running jobs based on application.properties configuration settings, where:
 
 job.type      - Type of action the job will perform
@@ -15,6 +17,7 @@ Existing implementation problems:
 1 - No sample jobs given, so no full integration tests
 2 - Jobs are run on app start regardless of schedule settings. Scheduled jobs shouldn't trigger job execution during app startup
 3 - Job-Independent schedule implementation missing
+
 
 Open points:
 
