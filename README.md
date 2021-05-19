@@ -14,7 +14,7 @@ job.priority  - 3 settings of priority (Low, Medium, High)
 jobs.schedule - Cron-type configuration to run all jobs
 
 
-Existing implementation problems:
+Existing implementation problems/missing features:
 
 1 - No sample jobs given, so no full integration tests
 
